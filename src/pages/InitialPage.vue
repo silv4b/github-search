@@ -5,7 +5,7 @@
       <div class="searchInput">
         <input v-model="gitUser" type="text" placeholder="Usuário do GitHub" />
       </div>
-      <div class="btnSearch">
+      <div>
         <button @click="sendNameToSearch" type="submit">
           <span class="text">Pesquisar</span>
         </button>
@@ -53,7 +53,7 @@ button {
   margin: 1rem;
   width: 16rem;
   height: 2.6rem;
-  background: #42163A;
+  background: #1b4986;
   border: none;
   border-radius: 0.4rem;
   cursor: pointer;
@@ -61,7 +61,7 @@ button {
 }
 
 button:hover {
-  background: #97508a;
+  background: #2767a3;
   transition: 0.3s ease-in-out;
 }
 
