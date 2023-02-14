@@ -3,8 +3,8 @@ import { createRouter, createWebHistory } from 'vue-router';
 
 import App from './App.vue';
 
-import InitialPage from './components/InitialPage.vue';
-import DetailPage from './components/DetailPage.vue';
+import InitialPage from './pages/InitialPage.vue';
+import DetailPage from './pages/DetailPage.vue';
 
 const router = createRouter({
   history: createWebHistory(),
